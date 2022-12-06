@@ -25,11 +25,11 @@ public class SORUA11 {
         System.out.println("Bölme sayısı giriniz");
         int n=input.nextInt();
         
-        int T=1;
-        for(int i=1;i<n;i++){
+        double T=1;
+        for(int i=0;i<n;i++){
             T=4+1/(T);  
         }
-        System.out.printf("Karakök(5)=%d/",2+1/T);
+        System.out.printf("Karakök(5)=%f\",2+1/T);
        
     }
     
