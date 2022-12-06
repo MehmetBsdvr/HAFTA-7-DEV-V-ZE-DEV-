@@ -6,9 +6,9 @@ import java.util.Scanner;
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-/*
-Üçkensel sayı  1+2+3+4=(4*(4+1))/2 seklinde yazılan sayılar
-*/
+
+
+
 /**
  *
  * @author Mehmet
@@ -21,6 +21,7 @@ public class SORUC33 {
     public static void main(String[] args) {
         // TODO code application logic here
         Scanner input=new Scanner(System.in);
+        /*Üçkensel sayı  1+2+3+4=(4*(4+1))/2 seklinde yazılan sayılar*/
         System.out.println("SAYINIZI GİRİNİZ");
         int N=input.nextInt();
         
