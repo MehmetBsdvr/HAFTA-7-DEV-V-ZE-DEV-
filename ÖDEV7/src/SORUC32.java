@@ -6,9 +6,9 @@ import java.util.Scanner;
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-/*
-Polindrom sayılar  303 1001 2002 gibi sayılar  100-9999 programı
-*/
+
+
+
 /**
  *
  * @author Mehmet
@@ -20,6 +20,7 @@ public class SORUC32 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        /*Polindrom sayılar  303 1001 2002 gibi sayılar  100-9999 programı*/
        Scanner input=new Scanner(System.in);
        
        for(int i=1;i<=9;i++){
