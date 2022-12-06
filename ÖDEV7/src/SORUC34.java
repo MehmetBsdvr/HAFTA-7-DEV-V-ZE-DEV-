@@ -6,9 +6,9 @@ import java.util.Scanner;
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-/*
-Fibonaci sayı sı  1 1 2 3 5 8 13 21 seklinde yazdıran program
-*/
+
+
+
 /**
  *
  * @author Mehmet
@@ -20,6 +20,7 @@ public class SORUC34 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        /*Fibonaci sayı sı  1 1 2 3 5 8 13 21 seklinde yazdıran program*/
         Scanner input=new Scanner(System.in);
         System.out.println("SAYINIZI GİRİNİZ");
         int N=input.nextInt();
