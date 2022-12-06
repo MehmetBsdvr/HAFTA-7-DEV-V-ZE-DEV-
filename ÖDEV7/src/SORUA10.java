@@ -26,12 +26,12 @@ public class SORUA10 {
         System.out.println("Bölme sayısı giriniz");
         int n=input.nextInt();
         
-        int T=1;
-        for(int i=1;i<n-1;i++){
+        double T=1;
+        for(int i=0;i<n-1;i++){
             T=1+1/(2+1/T);
             
         }
-        System.out.printf("Karakök(3)=%d/",1+1/T);
+        System.out.printf("Karakök(3)=%f\",1+1/T);
     }
     
 }
