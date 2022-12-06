@@ -27,10 +27,11 @@ Pİ DEGERİNİ 12^(1/2)*(1-1/3.3+1/5.3^3 ) YAKLASIK HESEPLAYAN PROGRAM
         
         int T=1;
         for(int i=1;i<=n-1;i++){
-            T=(int) (T+Math.pow(-1, i)/(Math.pow((6*i+3),i)));
+            T=i;
+            T=(double) (T+Math.pow(-1, i)/(Math.pow((6*i+3),i)));
         
     }
-        System.out.println("Pİ DEGERİ: "+Math.pow(12,1/2*T));
+        System.out.printf("\nexp(pi)=%f\n",(Math.pow(12,(1/2))*T));
     }
     
 }
