@@ -21,13 +21,12 @@ public class SORUC30 {
     public static void main(String[] args) {
         // TODO code application logic here
         Scanner input=new Scanner(System.in);
-        
-        for(int a=1;a<=50;a++){
-            for(int b=a;b<=50;b++){
-                for(int c=b;c<=50;c++){
-                    if((a*a+b*b+c*c==3*a*b*c)){
-                        System.out.printf(" €[1,50] a,b,c Markova sayı",a,b,c);
-                        break;
+        System.out.println("Markov sayı");
+        for(int a=1;a<=9;a++){
+            for(int b=1;b<=9;b++){
+                for(int c=1;c<=9;c++){
+                    if((Math.pow(a, 2)+Math.pow(b, 2)+Math.pow(c, 2))==(3*a*b*c)){
+                        System.out.printf(" /Markov sayı= %d ve %d ise %d",a,b,c);
                     }
                 }
             }
