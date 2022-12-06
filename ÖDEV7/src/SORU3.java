@@ -28,12 +28,12 @@ Ln(2) degerini hesaplanayan program
         System.out.println("Açı degerini giriniz");
         double n=input.nextDouble();
         
-        int T=0;
+        double T=0;
         
         for(int k=0;k<=n-1;k++){
-            T=T+1/((2*k+1)*(2*k+2));
+            T=T+Math.max(2*k+1,2*k+2);
         }
-        System.out.printf("Hesaplanan: %d/",T);
+        System.out.println("L(2)="+T);
        
         
     }
