@@ -3,9 +3,9 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-/*
-Leyland sayıları x^y+y^x sayılarını yazdıran program
-*/
+
+
+
 /**
  *
  * @author Mehmet
@@ -18,8 +18,9 @@ public class SORUB21 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        Scanner input=new Scanner(System.in);
         
+        Scanner input=new Scanner(System.in);
+        /*Leyland sayıları x^y+y^x sayılarını yazdıran program*/
         System.out.println("Sayı1 giriniz ");
         int x=input.nextInt();
         
