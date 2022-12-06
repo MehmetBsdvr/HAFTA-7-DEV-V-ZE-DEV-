@@ -22,21 +22,21 @@ public class SORUB29 {
     public static void main(String[] args) {
         // TODO code application logic here
         Scanner input=new Scanner(System.in);
-        System.out.println("SAYINIZI GİRİNİZ");
-        int a=input.nextInt();
-        int s=0,t=0;
-        for(int i=1;1<=a;i++){
-            if(a%i==0){
-                s=s+1;
-                t=t+1/i;
+        System.out.println("Sayınızı giriniz");
+        int N=input.nextInt();
+        int S=0,T=0;
+        for(int i=1;i<=N;i++){
+            if(N%i==0){
+                S=S+1;
+                T=T+1/i;
             }
-            double ho =s/t;
-            if(ho==(s/t)){
-                System.out.println("Ore sayı ");
+            double H=S/T;
+            if(H==Math.ceil(H)){
+                System.out.println("Ore sayı");
                 break;
             }
             else{
-                System.out.println(" Ore sayı degildir ");
+                System.out.println("Ora sayı degildir");
                 break;
             }
         }
