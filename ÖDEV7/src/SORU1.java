@@ -43,8 +43,8 @@ kadar seriye açarak hesaplan program
                 S=S*(-1);
                 T=T+S*Math.pow(x,2*i)/F;
             }
-            System.out.println("Hesaplanan: "+T);
-            System.out.println("Komustla Hesaplanan Deger: "+Math.cos(x));
+            System.out.printf("\nSerisi açılımı ile Hesaplanan deger:%.5f\n",T);
+            System.out.printf("Komustla Hesaplanan Deger:%.5f\n ",Math.cos(x));
             }
         }
     }
