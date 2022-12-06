@@ -3,9 +3,9 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-/*
-Bağdas sayı (14,16)  1=1 4+6=10 esit olan sayılar
-*/
+
+
+
 
 /**
  *
@@ -19,6 +19,7 @@ public class SORUB25 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        /*Bağdas sayı (14,16)  1=1 4+6=10 esit olan sayılar*/
         Scanner input=new Scanner(System.in);
         
         System.out.println(" Sayı1 girniz");
