@@ -6,9 +6,9 @@ import java.util.Scanner;
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-/*
-Aritmetik sayı  6  (1+2+3+6)/4=3 tamsayı esit
-*/
+
+
+
 /**
  *
  * @author Mehmet
@@ -20,6 +20,7 @@ public class SORUC31 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        /*Aritmetik sayı  6  (1+2+3+6)/4=3 tamsayı esit*/
         Scanner input=new Scanner(System.in);
         System.out.println("SAYINIZI GİRİNİZ");
         int N=input.nextInt();
