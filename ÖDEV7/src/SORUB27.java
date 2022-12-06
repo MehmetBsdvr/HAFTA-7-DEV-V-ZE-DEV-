@@ -3,9 +3,9 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-/*
-Tau sayı  18 bölen leri sayısına  bölünen  1,2,3,6,9,18 = 6 (18/6=3)
-*/
+
+
+
 
 /**
  *
@@ -19,6 +19,7 @@ public class SORUB27 {
      */
     public static void main(String[] args) {
         // TODO code application logic herecnn
+        /*Tau sayı  18 bölen leri sayısına  bölünen  1,2,3,6,9,18 = 6 (18/6=3)*/
         Scanner input=new Scanner(System.in);
         System.out.println("Sayını giriniz");
         int n=input.nextInt();
