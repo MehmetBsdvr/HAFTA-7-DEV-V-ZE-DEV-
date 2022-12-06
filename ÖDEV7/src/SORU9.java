@@ -26,12 +26,12 @@ public class SORU9 {
         System.out.println("Sayı giriniz giriniz");
         double n=input.nextDouble();
         
-        int T=1;
-        for(int i=1;i<=n;i++){
+        double T=1;
+        for(int i=0;i<=n;i++){
             T=2+1/T;
             
         }
-        System.out.printf("Karakök(2)=%d/n",1+1/T);
+        System.out.printf("Karakök(2)=%f\n",1+1/T);
     
     }
 }
