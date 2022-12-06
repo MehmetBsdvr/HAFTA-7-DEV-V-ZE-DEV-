@@ -26,7 +26,7 @@ public class SORUA12 {
         double a=input.nextDouble();
         
         double b=(double)(a*(1+Math.pow(5,(1/2)))/2);
-        System.out.printf("altın üçken Q=(1+5^(1/2))/2",a,b,b);
+        System.out.println("Kısa kenar"+a+"Altın oran"+b);
     }
     
 }
