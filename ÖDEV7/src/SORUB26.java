@@ -3,9 +3,9 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-/*
-Eksik sayı 15  1+3+5+15=24   30>24 seklin de sayılarra denir 
-*/
+
+ 
+
 
 /**
  *
@@ -19,6 +19,7 @@ public class SORUB26 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        /*Eksik sayı 15  1+3+5+15=24   30>24 seklin de sayılarra denir*/
         Scanner input=new Scanner(System.in);
         System.out.println(" Sayını giriniz ");
         int s=input.nextInt();
