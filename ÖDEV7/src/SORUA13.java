@@ -7,7 +7,7 @@
  *
  * @author Mehmet
  */
-import java.io.PrintStream;
+
 import java.util.Scanner;
 public class SORUA13 {
 
@@ -23,7 +23,7 @@ public class SORUA13 {
         double U=input.nextDouble();
         double b=(double)(2+Math.pow(2, 5));
         int a=(int) (U-b);
-        PrintStream printf = System.out.printf("gümüs oran &=(2*a+b)/a",a,b);
+        System.out.println("A uggun"+a+" B ugun"+b);
     }
     
 }
