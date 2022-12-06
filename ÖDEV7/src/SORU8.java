@@ -25,12 +25,12 @@ public class SORU8 {
         
         System.out.println("Sayı giriniz giriniz");
         double n=input.nextDouble();
-        int C=0;
+        int C=1;
         for(int i=1;i<=n;i++){
             int C1=4*i*i;
             C=C*C1/(C1-1);
         }
-        System.out.println("Pİ DEGERİ: "+2*C);
+        System.out.printf("John Wallis=%d\n",(2*C));
     }
     
 }
