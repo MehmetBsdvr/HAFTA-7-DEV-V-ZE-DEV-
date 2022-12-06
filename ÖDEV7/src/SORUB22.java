@@ -3,9 +3,9 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-/*
-Hilber sayı 4*k-1 seklinde olan sayıları yazdıran program
-*/
+
+
+
 /**
  *
  * @author Mehmet
@@ -18,6 +18,7 @@ public class SORUB22 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        /*Hilber sayı 4*k-1 seklinde olan sayıları yazdıran program*/
         Scanner input=new Scanner(System.in);
         System.out.println("Sayını giriniz");
         int s=input.nextInt();
